@@ -137,8 +137,8 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 # All Custom Apps
 
 ALL_APPS = [
-    'accounts',
-    'rootapp'
+    'matrivume.accounts',
+    'matrivume.rootapp'
 ]
 
 for app in ALL_APPS:
