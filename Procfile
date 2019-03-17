@@ -1,1 +1,1 @@
-web: gunicorn matrivume.matrivume.wsgi --access-logfile -
+web: gunicorn matrivume.wsgi --access-logfile -

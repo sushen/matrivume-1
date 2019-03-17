@@ -7,3 +7,7 @@ python manage.py migrate
 python manage.py runserver
 
 for Procfile > web: gunicorn matrivume.wsgi --access-logfile -
+
+python manage.py makemigrations && python manage.py migrate
+
+python manage.py createsuperuser
