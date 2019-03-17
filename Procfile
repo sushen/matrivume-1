@@ -1,1 +1,1 @@
-web: gunicorn matrivume.matrivume.wsgi --access-logfile -
+web: gunicorn --env DJANGO_SETTINGS_MODULE=matrivume.settings matrivume.matrivume.wsgi --access-logfile -
